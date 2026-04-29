@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Clínica do Rim – Cuidado especializado em Nefrologia. Agende sua consulta de forma rápida e simples pelo WhatsApp." />
+  <meta name="keywords" content="nefrologia, clínica do rim, agendamento consulta, tratamento renal, diálise" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Clínica do Rim – Agende sua Consulta" />
+  <meta property="og:description"
+    content="Cuidado especializado com seus rins. Agende sua consulta agora pelo WhatsApp!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/hero-bg.png" />
+
+  <title>Clínica do Rim – Agende sua Consulta pelo WhatsApp</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" role="banner">
+    <div class="container navbar__inner">
+      <a href="#hero" class="navbar__logo" aria-label="Clínica do Rim – início">
+        <span class="navbar__logo-icon" aria-hidden="true">
+          <svg width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="22" cy="32" rx="14" ry="22" fill="#2E7D32" opacity="0.85" />
+            <ellipse cx="42" cy="32" rx="14" ry="22" fill="#43A047" opacity="0.7" />
+            <ellipse cx="22" cy="32" rx="6" ry="12" fill="#fff" opacity="0.3" />
+          </svg>
+        </span>
+        <span>Clínica do Rim</span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <ul class="navbar__links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#medico">Médicos</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li>
+            <a href="#whatsapp-cta" class="btn btn--nav">Agendar Consulta</a>
+          </li>
+        </ul>
+        <button class="navbar__burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu"
+          id="burger-btn">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#medico">Médicos</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#whatsapp-cta" class="btn btn--green">Agendar Consulta</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <span class="hero__badge">Nefrologia &amp; Saúde Renal</span>
+        <h1 id="hero-title" class="hero__title">Clínica do Rim</h1>
+        <p class="hero__subtitle">Cuidado especializado com seus rins, com atenção, carinho e experiência.</p>
+        <a href="https://wa.me/5500000000000?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+consulta+na+Cl%C3%ADnica+do+Rim."
+          class="btn btn--hero" target="_blank" rel="noopener noreferrer" aria-label="Agendar consulta pelo WhatsApp"
+          id="hero-cta">
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+            <path
+              d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.121 1.533 5.851L.057 23.704a.5.5 0 0 0 .61.61l5.853-1.476A11.942 11.942 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.802 9.802 0 0 1-5.003-1.371l-.36-.213-3.72.938.957-3.629-.234-.374A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z" />
+          </svg>
+          Agende sua consulta pelo WhatsApp
+        </a>
+        <p class="hero__note">Atendimento rápido &bull; Sem filas &bull; Sem burocracia</p>
+      </div>
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 5v14M5 12l7 7 7-7" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- ========== SOBRE ========== -->
+    <section id="sobre" class="section sobre" aria-labelledby="sobre-title">
+      <div class="container sobre__inner">
+        <div class="section-tag">Quem Somos</div>
+        <h2 id="sobre-title" class="section-title">Uma clínica pensada para você</h2>
+        <div class="sobre__grid">
+          <div class="sobre__text">
+            <p>
+              Na <strong>Clínica do Rim</strong>, acreditamos que cada paciente merece atenção individualizada, com
+              escuta ativa e cuidado genuíno.
+              Somos especializados no tratamento de doenças renais e no acompanhamento de pacientes que buscam qualidade
+              de vida.
+            </p>
+            <p>
+              Nossa abordagem é humanizada: explicamos cada etapa do tratamento com clareza, para que você e sua família
+              se sintam seguros e acolhidos em todo o processo.
+            </p>
+          </div>
+          <div class="sobre__stats">
+            <div class="stat-card">
+              <span class="stat-card__number">+500</span>
+              <span class="stat-card__label">Pacientes atendidos</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__number">10+</span>
+              <span class="stat-card__label">Anos de experiência</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__number">98%</span>
+              <span class="stat-card__label">Satisfação dos pacientes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== MÉDICO ========== -->
+    <section id="medico" class="section medico" aria-labelledby="medico-title">
+      <div class="container medico__inner">
+        <div class="section-tag">Nosso Especialista</div>
+        <h2 id="medico-title" class="section-title">Conheça o profissional que cuida de você</h2>
+        <div class="medico__card">
+          <div class="medico__photo-wrap">
+            <img src="images/doctor.png"
+              alt="Dr., Nefrologista da Clínica do Rim, com jaleco branco e sorriso acolhedor" class="medico__photo"
+              width="300" height="300" loading="lazy" />
+            <div class="medico__badge-crm">CRM 00000 / XX</div>
+          </div>
+          <div class="medico__info">
+            <h3 class="medico__name">Dr. </h3>
+            <span class="medico__specialty">Nefrologista • RQE nº 00000</span>
+            <p class="medico__bio">
+              Com mais de 10 anos de atuação em nefrologia, o Dr. Carlos Eduardo dedica sua carreira ao cuidado integral
+              dos rins —
+              desde a prevenção até o tratamento de condições complexas como insuficiência renal e dependência de
+              álcool.
+            </p>
+            <p class="medico__bio">
+              Sua prática é marcada pela escuta empática e pela comunicação clara: ele acredita que um paciente bem
+              informado é um paciente mais saudável.
+            </p>
+            <a href="https://wa.me/5500000000000?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+consulta+com+o+Dr.+Carlos+Eduardo+na+Cl%C3%ADnica+do+Rim."
+              class="btn btn--green" target="_blank" rel="noopener noreferrer"
+              aria-label="Agendar consulta com o Dr. Carlos Eduardo pelo WhatsApp">
+              <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+                <path
+                  d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.121 1.533 5.851L.057 23.704a.5.5 0 0 0 .61.61l5.853-1.476A11.942 11.942 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.802 9.802 0 0 1-5.003-1.371l-.36-.213-3.72.938.957-3.629-.234-.374A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z" />
+              </svg>
+              Falar com o Dr. Carlos
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVIÇOS ========== -->
+    <section id="servicos" class="section servicos" aria-labelledby="servicos-title">
+      <div class="container">
+        <div class="section-tag">O que oferecemos</div>
+        <h2 id="servicos-title" class="section-title">Nossos Serviços</h2>
+        <p class="section-subtitle">Cuidado completo e acessível para cada etapa do seu tratamento.</p>
+        <div class="servicos__grid">
+
+          <article class="servico-card" tabindex="0">
+            <div class="servico-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path
+                  d="M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" />
+                <path d="M12 14v4M10 16h4" />
+              </svg>
+            </div>
+            <h3 class="servico-card__title">Consultas</h3>
+            <p class="servico-card__desc">Avaliação completa e individualizada da saúde renal, com diagnóstico preciso e
+              orientações claras.</p>
+          </article>
+
+          <article class="servico-card" tabindex="0">
+            <div class="servico-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+              </svg>
+            </div>
+            <h3 class="servico-card__title">Acompanhamento</h3>
+            <p class="servico-card__desc">Monitoramento contínuo da função renal para garantir o melhor controle da sua
+              saúde ao longo do tempo.</p>
+          </article>
+
+          <article class="servico-card" tabindex="0">
+            <div class="servico-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                <path d="M9 12l2 2 4-4" />
+              </svg>
+            </div>
+            <h3 class="servico-card__title">Tratamento do Alcoolismo</h3>
+            <p class="servico-card__desc">Suporte especializado e acolhedor para dependentes de álcool, com atenção ao
+              impacto renal e à saúde geral.</p>
+          </article>
+
+          <article class="servico-card" tabindex="0">
+            <div class="servico-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <ellipse cx="12" cy="12" rx="8" ry="5" />
+                <path d="M4 12c0 2.8 3.6 5 8 5s8-2.2 8-5" />
+                <path d="M12 7v10" />
+              </svg>
+            </div>
+            <h3 class="servico-card__title">Diálise</h3>
+            <p class="servico-card__desc">Orientação e encaminhamento para terapias de substituição renal com
+              acompanhamento humanizado e seguro.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA WHATSAPP ========== -->
+    <section id="whatsapp-cta" class="section cta-section" aria-labelledby="cta-title">
+      <div class="container cta-section__inner">
+        <div class="cta-section__text">
+          <h2 id="cta-title">Pronto para cuidar da sua saúde?</h2>
+          <p>Agende sua consulta agora mesmo pelo WhatsApp. É simples, rápido e sem burocracia. Nossa equipe responde em
+            instantes.</p>
+        </div>
+        <a href="https://wa.me/5500000000000?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+consulta+na+Cl%C3%ADnica+do+Rim."
+          class="btn btn--cta" target="_blank" rel="noopener noreferrer" aria-label="Agendar consulta pelo WhatsApp"
+          id="main-cta">
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+            <path
+              d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.121 1.533 5.851L.057 23.704a.5.5 0 0 0 .61.61l5.853-1.476A11.942 11.942 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.802 9.802 0 0 1-5.003-1.371l-.36-.213-3.72.938.957-3.629-.234-.374A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z" />
+          </svg>
+          Agendar pelo WhatsApp agora
+        </a>
+      </div>
+    </section>
+
+    <!-- ========== DEPOIMENTOS ========== -->
+    <section id="depoimentos" class="section depoimentos" aria-labelledby="dep-title">
+      <div class="container">
+        <div class="section-tag">Depoimentos</div>
+        <h2 id="dep-title" class="section-title">O que nossos pacientes dizem</h2>
+        <div class="depoimentos__grid">
+
+          <blockquote class="dep-card">
+            <div class="dep-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <p class="dep-card__text">"O Dr. Carlos me explicou tudo com muita paciência. Pela primeira vez entendi
+              minha doença e me senti cuidado de verdade. Recomendo a todos!"</p>
+            <footer class="dep-card__author">
+              <div class="dep-card__avatar" aria-hidden="true">JR</div>
+              <div>
+                <strong>João R.</strong>
+                <span>Paciente há 2 anos</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="dep-card">
+            <div class="dep-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <p class="dep-card__text">"Minha mãe idosa faz acompanhamento na clínica há mais de um ano. O atendimento é
+              sempre muito cuidadoso e atencioso. Ficamos muito gratos."</p>
+            <footer class="dep-card__author">
+              <div class="dep-card__avatar" aria-hidden="true">AS</div>
+              <div>
+                <strong>Ana S.</strong>
+                <span>Filha de paciente</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="dep-card">
+            <div class="dep-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <p class="dep-card__text">"Precisava de ajuda com meu tratamento e fui acolhido sem julgamento. A equipe é
+              incrível. Agendar pelo WhatsApp foi super fácil!"</p>
+            <footer class="dep-card__author">
+              <div class="dep-card__avatar" aria-hidden="true">MF</div>
+              <div>
+                <strong>Marcos F.</strong>
+                <span>Paciente em tratamento</span>
+              </div>
+            </footer>
+          </blockquote>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== RODAPÉ ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo">Clínica do Rim</span>
+        <p>Cuidado especializado com seus rins.</p>
+      </div>
+      <div class="footer__info">
+        <p><strong>Endereço:</strong> QN 306 CONJUNTO 1 LOTE 01 - Samambaia, Brasília - DF, 72306-201</p>
+        <p><strong>CNPJ:</strong> 00.000.000/0000-00 &nbsp;|&nbsp; <strong>CRM:</strong> 00000 / XX</p>
+        <p><strong>Horário:</strong> Segunda a Sexta, 8h às 18h</p>
+        <p>Sabado 8h as 12h</p>
+      </div>
+      <div class="footer__privacy">
+        <p>
+          🔒 <strong>Privacidade:</strong> Seus dados não são coletados neste site.
+          O agendamento ocorre diretamente no WhatsApp, de forma segura e sem cadastros.
+        </p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Clínica do Rim. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ========== WHATSAPP FLUTUANTE ========== -->
+  <a href="https://wa.me/5500000000000?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+consulta+na+Cl%C3%ADnica+do+Rim."
+    class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Agendar consulta pelo WhatsApp"
+    id="whatsapp-float">
+    <div class="whatsapp-float__doctor">
+      <img src="images/doctor.png" alt="Dr. Henrique Nardoni Watanabe – clique para agendar pelo WhatsApp" width="56"
+        height="56" loading="lazy" />
+    </div>
+    <div class="whatsapp-float__icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+        <path
+          d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.121 1.533 5.851L.057 23.704a.5.5 0 0 0 .61.61l5.853-1.476A11.942 11.942 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.802 9.802 0 0 1-5.003-1.371l-.36-.213-3.72.938.957-3.629-.234-.374A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z" />
+      </svg>
+    </div>
+    <div class="whatsapp-float__tooltip" role="tooltip">Agendar consulta</div>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
